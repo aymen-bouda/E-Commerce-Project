@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/add-product.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="nameId"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+        <span id="nameError"></span>
+        <div class="col-md-12 form-group">
+          <input
+            type="number"
+            class="form-control"
+            id="priceId"
+            name="name"
+            placeholder="Price"
+          />
+        </div>
+        <span id="priceError"></span>
+        <div class="col-md-12 form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="categoryId"
+            name="name"
+            placeholder="Category"
+          />
+        </div>
+        <span id="categoryError"></span>
+        <div class="col-md-12 form-group">
+          <input
+            type="number"
+            class="form-control"
+            id="stockId"
+            name="name"
+            placeholder="stock"
+          />
+        </div>
+        <span id="stockError"></span>
+        <div class="col-md-12 form-group">
+          <button
+            type="submit"
+            value="submit"
+            onclick="addProduct()"
+          >
+            Control
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

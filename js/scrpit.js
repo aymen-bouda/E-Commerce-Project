@@ -367,6 +367,8 @@ function displayBasket() {
   console.log("here result for orders", result);
 }
 
+// trying github update
+
 function myOrders() {
   var orders = getFromLS("orders");
   var connectedUser = localStorage.getItem("connectedUser");
